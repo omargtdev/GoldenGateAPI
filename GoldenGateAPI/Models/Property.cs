@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GoldenGateAPI;
+namespace GoldenGateAPI.Models;
 
-public class RealState
+public class Property
 {
     [Key]
     [Required]
