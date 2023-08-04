@@ -23,4 +23,8 @@ public class Property
 
     public DateTime CreationDate { get; set; } = DateTime.Now;
 
+    public DateTime? LastUpdateDate { get; set; }
+
+    public Guid? UserId { get; set; }
+
 }
